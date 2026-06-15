@@ -1,28 +1,22 @@
 const input = require("readline-sync")
 
-let c = 0;
-
 function somar(a, b) {
-    c = a + b
-    return c;
+    return a + b;
 }
 
 function subtrair(a, b) {
-    c = a - b
-    return c;
+    return a - b;
 }
 
 function multiplicar(a, b) {
-    c = a * b
-    return c;
+    return a * b;
 }
 
 function dividir(a, b) {
     if (b === 0) {
         return "Erro: divisao por zero";
     } else {
-        c = a / b
-        return c;
+        return a / b;
     }
 }
 
