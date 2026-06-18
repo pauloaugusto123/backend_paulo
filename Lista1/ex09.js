@@ -11,4 +11,4 @@ const min = (a, b) => {
 let a = input.questionInt("Digite um numero = ")
 let b = input.questionInt("Agora outro = ")
 
-console.log(min(a, b));
+console.log(`menor é o min(a, b)`);
