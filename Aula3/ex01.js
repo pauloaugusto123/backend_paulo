@@ -4,4 +4,4 @@ const pessoa = {
     cidade: "Cascavel"
 }
 
-console.log(`Meu nome e ${pessoa.nome}, tenho ${pessoa.idade} anos, e moro em ${pessoa.cidade}`)
+console.log(`Meu nome é ${pessoa.nome}, tenho ${pessoa.idade} anos, em ${pessoa.cidade}`)
